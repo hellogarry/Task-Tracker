@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Tasks from './components/Tasks'
 import AddTask from './components/AddTask'
+//giimport 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [showAddTask, setShowAddTask] = useState(false) //Use in AddTask button
